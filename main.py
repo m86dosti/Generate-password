@@ -8,6 +8,6 @@ def generate_password(length=12):
     password = ''.join(secrets.choice(characters) for _ in range(length))
     return password
 
-# Example usage
+# Example  usage
 secure_password = generate_password(16)
 print(f"Generated secure password: {secure_password}")
